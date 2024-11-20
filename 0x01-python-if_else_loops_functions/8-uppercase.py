@@ -8,5 +8,3 @@ def uppercase(str):
             print("{}".format(chr(ord(char) - 32)), end='')  # Print uppercase letter
         else:
             print("{}".format(char), end='')  # Print non-lowercase character
-    
-    print()  # Print new line after loop completes
